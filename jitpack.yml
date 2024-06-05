@@ -4,6 +4,6 @@ jdk:
 build:
   source: true
 
-install:
-  - ./gradlew clean
-  - ./gradlew design:publishReleasePublicationToMavenLocal
+# install:
+#  - ./gradlew clean
+#  - ./gradlew design:publishReleasePublicationToMavenLocal
