@@ -1,5 +1,6 @@
 jdk:
   - openjdk11
 
-build:
-  source: true
+install:
+  - ./gradlew clean
+  - ./gradlew fingerprint:publishFpReleasePublicationToMavenLocal
